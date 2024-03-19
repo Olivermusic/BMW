@@ -46,20 +46,20 @@ pm_buttons = [
     [
         InlineKeyboardButton(text="-› التحكم .", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="-› القناة .", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=config.SUPPORT_CHAT),
     ],
     [
-        InlineKeyboardButton(text="-› المنشئ .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🇮🇱 𓏺 𝖮َِ𝗅َِ𝗂َِ𝖵َِ𝖾𝖱 .", user_id=config.OWNER_ID),
     ],
 ]
 
 
 gp_buttons = [
     [
-        InlineKeyboardButton(text="-› القناة .", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=config.SUPPORT_CHANNEL),
     ],
     [
-        InlineKeyboardButton(text="-› المنشى .", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🇮🇱 𓏺 𝖮َِ𝗅َِ𝗂َِ𝖵َِ𝖾𝖱 .", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -72,7 +72,7 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="-› المنشئين .", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="-› المطوريين .", callback_data="fallen_cb sudo"),
     ],
     [
         InlineKeyboardButton(text="-› امسح .", callback_data="close"),
@@ -81,7 +81,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="-› الفريق .", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="𓏺 𝘢 𝘍𝘪𝘶𝘯𝘺 .", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="-› ارجع .", callback_data="fallen_help"),
         InlineKeyboardButton(text="-› امسح .", callback_data="close"),
