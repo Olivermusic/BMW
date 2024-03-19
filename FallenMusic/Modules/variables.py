@@ -29,7 +29,7 @@ from FallenMusic import BOT_NAME, app
 
 
 @app.on_message(
-    filters.command(["config", "variables"]) & filters.user(config.OWNER_ID)
+    filters.command(["config", "الفارات"]) & filters.user(config.OWNER_ID)
 )
 async def get_vars(_, message: Message):
     try:
