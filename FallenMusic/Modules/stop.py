@@ -28,7 +28,7 @@ from FallenMusic.filters import command
 from FallenMusic.Helpers import _clear_, admin_check, close_key
 
 
-@app.on_message(command(["انهاء", "ايقاف"]) & filters.group)
+@app.on_message(command(["ستوب", "كافي"]) & filters.group)
 @admin_check
 async def stop_str(_, message: Message):
     try:
