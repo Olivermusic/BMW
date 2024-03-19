@@ -77,7 +77,7 @@ async def set_bio(_, message: Message):
         )
 
 
-@app.on_message(filters.command(["assname", "setname"]) & SUDOERS)
+@app.on_message(filters.command(["تغيير اسم المساعد", "setname"]) & SUDOERS)
 async def set_name(_, message: Message):
     msg = message.reply_to_message
     if msg:
